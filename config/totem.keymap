@@ -52,6 +52,16 @@
             bindings = <&kt LG(X)>;
             key-positions = <22 24>;
         };
+
+        HardResetLeft {
+            bindings = <&bootloader>;
+            key-positions = <1 3>;
+        };
+
+        HardResetRight {
+            bindings = <&bootloader>;
+            key-positions = <6 8>;
+        };
     };
 
     macros {
